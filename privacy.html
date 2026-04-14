@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy | ClaveGuard Fortress</title>
+  <style>
+    body { margin: 0; font-family: Georgia, "Times New Roman", serif; background: #fffaf1; color: #17130f; line-height: 1.58; }
+    main { max-width: 880px; margin: 0 auto; padding: 48px 24px; }
+    h1 { font-size: clamp(2rem, 6vw, 4rem); line-height: 1; letter-spacing: -0.04em; }
+    h2 { margin-top: 32px; }
+    a { color: #5d2d14; font-weight: 700; }
+    li { margin: 4px 0; }
+  </style>
+</head>
+<body>
+<main>
+<p><a href="./index.html">Back to ClaveGuard Fortress</a></p>
+<h1>Privacy Policy</h1>
+<p>Effective date: 2026-04-14</p>
+<p>ClaveGuard Fortress is a local cold vault for critical secrets, recovery codes, private documents, and continuity planning.</p>
+<p>This policy explains how the app handles data. It is written to match the current product design: no cloud account, no backend, no telemetry, and no Android Internet permission.</p>
+<h2>Summary</h2>
+<ul>
+<li>ClaveGuard Fortress works locally on your device.</li>
+<li>The app does not require an account.</li>
+<li>The app does not operate a cloud backend for vault data.</li>
+<li>The Android app does not declare Internet permission.</li>
+<li>The app does not collect analytics.</li>
+<li>The app does not collect telemetry.</li>
+<li>The app does not include crash reporting SDKs.</li>
+<li>Your vault content is encrypted locally before persistence.</li>
+<li>You control your manual encrypted backups.</li>
+<li>The provider cannot read, recover, reset, or decrypt your vault.</li>
+</ul>
+<h2>Data stored by the app</h2>
+<p>ClaveGuard Fortress may store vault records, private notes, recovery planning information, document attachments, local security audit events, local app settings, and encrypted backup status metadata locally on your device when you choose to create them.</p>
+<p>Sensitive vault content and document attachments are encrypted locally before being written to persistent storage.</p>
+<h2>Data not collected by the provider</h2>
+<p>The provider does not collect your master password, recovery key, vault records, notes, attached documents, encrypted backups, analytics events, telemetry, crash logs, device identifiers, location data, contacts, calendar data, browsing history, or payment information.</p>
+<p>Users may voluntarily store any type of personal, financial, recovery, or private information inside their local encrypted vault. That content stays local and is not collected by the provider.</p>
+<h2>No account</h2>
+<p>ClaveGuard Fortress does not require a user account. There is no login service, remote identity account, cloud sync account, or provider-side vault account.</p>
+<h2>No backend for vault data</h2>
+<p>ClaveGuard Fortress does not operate a backend that stores, syncs, indexes, analyzes, or processes your vault data. The provider cannot access your vault because the vault is local to your device and encrypted with keys derived from information controlled by you.</p>
+<h2>No Android Internet permission</h2>
+<p>The Android version is designed without Android Internet permission. This means the app is not expected to send vault data to remote servers.</p>
+<h2>No analytics or telemetry</h2>
+<p>ClaveGuard Fortress does not include analytics, telemetry, behavioral tracking, advertising SDKs, or crash reporting SDKs in the current release.</p>
+<h2>Local encryption</h2>
+<p>Vault content is encrypted locally before persistence. The current design uses envelope encryption, authenticated encryption, domain-separated keys, and encrypted storage for vault records and document attachments.</p>
+<p>Manual backup export creates an encrypted backup file controlled by the user.</p>
+<h2>Backups</h2>
+<p>Backups are manual and user-controlled. When you export a backup, you choose where to save it. The backup is encrypted, but its safety depends on how you store the backup file and backup password.</p>
+<p>The provider does not receive or store your backups. If you delete, lose, overwrite, or expose a backup file, the provider cannot restore it for you.</p>
+<h2>Recovery key</h2>
+<p>The recovery key is shown to help you plan offline recovery. You are responsible for storing it safely. The provider does not receive it and cannot recreate it for you.</p>
+<p>If you lose your master password, recovery key, and backups, your vault data may not be recoverable.</p>
+<h2>Temporary document previews</h2>
+<p>When you preview an attached document, the app may temporarily materialize a decrypted preview file on the local device so the file can be opened or shown.</p>
+<p>The app attempts to clean up managed preview files during normal operation. A crash, forced shutdown, operating system failure, or compromised device may leave temporary residual files.</p>
+<h2>Local audit history</h2>
+<p>The app may store local security audit events, such as vault creation, lock/unlock activity, backup events, or import events. These events are intended for local visibility and are not sent to the provider.</p>
+<h2>Data sharing</h2>
+<p>The provider does not sell, rent, or share your vault data with third parties. The current app does not transmit vault data to the provider or to third-party services.</p>
+<h2>Data deletion</h2>
+<p>Because the provider does not hold your vault data, deletion is controlled locally by you. You can delete records inside the app, delete local app data, uninstall the app, and delete your own backup files.</p>
+<h2>Children's privacy</h2>
+<p>ClaveGuard Fortress is not designed for children and is not intended to knowingly collect data from children.</p>
+<h2>Security limitations</h2>
+<p>ClaveGuard Fortress reduces several risks by avoiding cloud sync, accounts, backend storage, telemetry, and Android Internet permission. It does not provide absolute security.</p>
+<p>Residual risks include compromised device, malware, root or jailbreak, hostile operating system, physical attacks against the device, loss of master password, loss of recovery key, lost or exposed backups, temporary preview residue, and user error.</p>
+<h2>Changes to this policy</h2>
+<p>If the app changes in a way that affects privacy, such as adding network functionality, crash reporting, analytics, cloud sync, accounts, or backend processing, this policy must be updated before that version is released.</p>
+<h2>Contact</h2>
+<p>For privacy or security questions, use the official support/contact channel published with the release build or landing page. Do not send master passwords, recovery keys, backup passwords, unencrypted backups, or vault contents in support messages.</p>
+</main>
+</body>
+</html>
